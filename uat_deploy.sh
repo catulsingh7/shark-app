@@ -5,6 +5,6 @@ zip -r /backup/backup-000778 .
 
 
 cd /opt
-npm install
-pwd 
-nohup node app.js &
+echo "Directory is :" $PWD
+npm install && nohup node app.js &
+
